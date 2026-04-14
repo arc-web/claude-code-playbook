@@ -133,93 +133,185 @@ blockquote::before { content:'\201C'; position:absolute; left:0; top:-10px; font
 <div id="slides">
 <div class="slide active" id="slide-1">
     
-    <div class="blob" style="width:499.2528106945972px;height:591.4111140657004px;background:var(--primary);top:-121.03377376743657px;right:-102.67886490461771px;opacity:0.07"></div>
-    <div class="blob" style="width:422.60233633148226px;height:314.6609990479831px;background:var(--accent);bottom:-81.70656381118746px;right:-78.9805439132409px;opacity:0.06"></div>
+    <div class="blob" style="width:453.8255891920386px;height:525.7047976957341px;background:var(--primary);top:-149.40353609919003px;left:-100.8607611515155px;opacity:0.07"></div>
+    <div class="blob" style="width:365.4844303946317px;height:441.5814254580125px;background:var(--accent);bottom:-89.14080536587923px;right:-52.17765438866441px;opacity:0.06"></div>
     <div class="slide-content">
       <div class="hero-badge">ARC Web</div>
-      <h1>Claude Code Playbook</h1>
-      <div class="sub">Generalized guides for Claude Code + GitHub + Discord team workflows - worktrees, agents, hooks, automation, and more</div>
-      <div class="tags-row"><span class="tag">Open Source</span><span class="tag">GitHub</span><span class="tag">Production</span></div>
+      <h1>Claude Code Playbook<br><span class="grad">JavaScript</span></h1>
+      <div class="sub"><a href="https://arc-web.github.io/claude-code-playbook/"></div>
+      <div class="tags-row"><span class="tag">JavaScript</span><span class="tag">Open Source</span></div>
     </div>
   </div>
 
 <div class="slide" id="slide-2">
     
-    <div class="blob" style="width:563.9107493028114px;height:547.4935669907984px;background:var(--primary);top:-133.25276164052877px;right:-113.88134253754475px;opacity:0.07"></div>
-    <div class="blob" style="width:373.0935479909755px;height:344.8166340463516px;background:var(--accent);bottom:-61.70976317111919px;right:-45.11138015285406px;opacity:0.06"></div>
+    <div class="blob" style="width:478.42517215319714px;height:556.2687607058979px;background:var(--primary);top:-103.36070919951015px;left:-83.58455092948765px;opacity:0.07"></div>
+    <div class="blob" style="width:405.860903184346px;height:353.9546826006359px;background:var(--accent);bottom:-73.66209857973645px;left:-59.47242648937558px;opacity:0.06"></div>
     <div class="slide-content">
-      <div class="eyebrow">What it does</div>
-      <h2>Key <span class="grad">features</span></h2>
+      <div class="eyebrow">The problem</div>
+      <h2>What's <span class="grad">broken</span> without this</h2>
       <div class="line"></div>
       <div class="cards">
     <div class="card">
-      <span class="card-icon">⚡</span>
-      <div class="card-title">Claude Code</div>
-      <div class="card-desc">Claude Code installed and authenticated (`claud...</div>
+      <span class="card-icon">🔀</span>
+      <div class="card-title">Merge conflicts block team velocity</div>
+      <div class="card-desc">When multiple developers work in parallel, Git merge conflicts require manual resolution that interrupts workflow and risks introducing bugs.</div>
     </div>
     <div class="card">
-      <span class="card-icon">⚡</span>
-      <div class="card-title">GitHub repo</div>
-      <div class="card-desc">GitHub repo with branch protection on `main` (r...</div>
+      <span class="card-icon">📢</span>
+      <div class="card-title">Code review approval loops are slow</div>
+      <div class="card-desc">Waiting for human reviewers to check Slack, GitHub, and email creates bottlenecks where PRs sit unreviewed for hours.</div>
     </div>
     <div class="card">
-      <span class="card-icon">⚡</span>
-      <div class="card-title">Discord server</div>
-      <div class="card-desc">Discord server with admin access (to create web...</div>
+      <span class="card-icon">🧠</span>
+      <div class="card-title">Claude Code lacks team coordination</div>
+      <div class="card-desc">Running Claude Code in isolation means no shared context between developers, no parallel review agents, and no automated conflict prevention.</div>
     </div></div>
     </div>
   </div>
 
 <div class="slide" id="slide-3">
     
-    <div class="blob" style="width:408.70041996457667px;height:463.08542445014086px;background:var(--primary);top:-94.40862139781979px;right:-98.62961785674673px;opacity:0.07"></div>
-    <div class="blob" style="width:356.2290153475276px;height:339.8074994451265px;background:var(--accent);bottom:-84.66783612659073px;left:-55.12714165357128px;opacity:0.06"></div>
+    <div class="blob" style="width:420.4540953705488px;height:582.4016943372641px;background:var(--primary);top:-154.87643349184128px;left:-111.90728404564203px;opacity:0.07"></div>
+    <div class="blob" style="width:319.0224857728789px;height:385.2530197547279px;background:var(--accent);bottom:-93.1875245804342px;right:-61.07107746645908px;opacity:0.06"></div>
     <div class="slide-content">
-      <div class="eyebrow">By the numbers</div>
-      <h2>Repository <span class="grad">stats</span></h2>
-      <div class="stat-grid">
-    <div class="stat">
-      <div class="stat-number">100%</div>
-      <div class="stat-label">Open Source</div>
-    </div>
-    <div class="stat">
-      <div class="stat-number">MIT</div>
-      <div class="stat-label">License</div>
-    </div>
-    <div class="stat">
-      <div class="stat-number">∞</div>
-      <div class="stat-label">Potential</div>
-    </div></div>
+      <div class="eyebrow">The difference</div>
+      <h2>Why it <span class="grad">matters</span></h2>
       
+      <div class="compare">
+        <div class="compare-col bad">
+      <div class="compare-head"><span class="cross">✗</span> Without</div>
+      <div class="compare-item">Manual work</div><div class="compare-item">Slow iteration</div><div class="compare-item">Repeated mistakes</div>
+    </div>
+        <div class="compare-col good">
+      <div class="compare-head"><span class="check">✓</span> With this</div>
+      <div class="compare-item">Three-layer conflict resolution system that prevents, detects, and auto-resolves merge conflicts with Claude instead of manual rebasing</div><div class="compare-item">Parallel review agents (logic, tests, security, performance) that run simultaneously rather than sequential human reviews</div><div class="compare-item">Discord as the communication terminal for all PR events, approvals, and merge decisions—no context switching between tools</div>
+    </div>
+      </div>
     </div>
   </div>
 
 <div class="slide" id="slide-4">
     
-    <div class="blob" style="width:430.4402059197166px;height:526.3382888924045px;background:var(--primary);top:-120.02106693822711px;left:-87.47144153124705px;opacity:0.07"></div>
-    <div class="blob" style="width:336.61582496806517px;height:414.8128247395438px;background:var(--accent);bottom:-102.18279580935948px;left:-50.99882714771084px;opacity:0.06"></div>
+    <div class="blob" style="width:405.3113388632701px;height:497.250246668416px;background:var(--primary);top:-94.88647777902057px;left:-84.54380174842052px;opacity:0.07"></div>
+    <div class="blob" style="width:332.4371366592501px;height:415.4631544079574px;background:var(--accent);bottom:-65.71484981637028px;right:-44.42342930331858px;opacity:0.06"></div>
     <div class="slide-content">
-      <div class="eyebrow">Get started</div>
-      <h2>Clone and <span class="grad">explore</span></h2>
-      <div class="sub">Start contributing today</div>
-      <div class="code-block"><div><span class=<span class="string">"comment"</span>># Clone the repo</span></div><div>git clone https://github.com/arc-web/claude-code-playbook.git</div><div>cd claude-code-playbook</div><div></div><div><span class=<span class="string">"comment"</span>># Read the README for next steps</span></div><div>cat README.md</div></div>
+      <div class="eyebrow">Under the hood</div>
+      <h2>How it <span class="grad">works</span></h2>
+      
+      <div class="flow">
+    <div class="flow-step">
+      <div class="flow-icon" style="background:rgba(123,47,190,0.12);border:1px solid rgba(123,47,190,0.2)">🌿</div>
+      <div class="flow-body">
+        <div class="flow-title">Developers create isolated worktrees</div>
+        <div class="flow-desc">Each team member spins up a parallel Git worktree with a launcher script, enabling simultaneous work on different features without blocking.</div>
+        
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-icon" style="background:rgba(59,130,246,0.12);border:1px solid rgba(59,130,246,0.2)">🤖</div>
+      <div class="flow-body">
+        <div class="flow-title">Claude orchestrates review agents</div>
+        <div class="flow-desc">When a PR is opened, specialized agents (logic, tests, security, performance) review in parallel while a team lead synthesizes findings and posts to Discord.</div>
+        
+      </div>
+    </div>
+    <div class="flow-step">
+      <div class="flow-icon" style="background:rgba(16,185,129,0.12);border:1px solid rgba(16,185,129,0.2)">✅</div>
+      <div class="flow-body">
+        <div class="flow-title">Approvals flow through Discord</div>
+        <div class="flow-desc">Review results and merge decisions post to Discord channels; Claude relays approval prompts to phone via `--channels`, and webhooks trigger automated merges on consensus.</div>
+        
+      </div>
+    </div></div>
     </div>
   </div>
 
 <div class="slide" id="slide-5">
     
-    <div class="blob" style="width:455.2986570746517px;height:530.6083596782726px;background:var(--primary);top:-85.29395047884572px;right:-87.60541577727338px;opacity:0.07"></div>
-    <div class="blob" style="width:382.21555805712273px;height:355.3141532464756px;background:var(--accent);bottom:-116.33491612278044px;left:-47.73209182265289px;opacity:0.06"></div>
+    <div class="blob" style="width:565.1371381647757px;height:440.3590199100276px;background:var(--primary);top:-122.37604526147177px;left:-92.3175164858928px;opacity:0.07"></div>
+    <div class="blob" style="width:446.088896079602px;height:441.745546554495px;background:var(--accent);bottom:-107.201913051507px;right:-75.93369242474421px;opacity:0.06"></div>
     <div class="slide-content">
-      <blockquote>Open source software powers innovation.<br><span class="grad">Join us on GitHub.</span></blockquote>
+      <div class="eyebrow">What it does</div>
+      <h2>Core <span class="grad">capabilities</span></h2>
+      <div class="line"></div>
+      <div class="cards">
+    <div class="card">
+      <span class="card-icon">⚡</span>
+      <div class="card-title">Fast</div>
+      <div class="card-desc">Optimized for speed and efficiency.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🎯</span>
+      <div class="card-title">Reliable</div>
+      <div class="card-desc">Built to work consistently.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🔌</span>
+      <div class="card-title">Integrates</div>
+      <div class="card-desc">Works with your existing tools.</div>
+    </div></div>
+    </div>
+  </div>
+
+<div class="slide" id="slide-6">
+    
+    <div class="blob" style="width:550.9184708898308px;height:525.2474908266767px;background:var(--primary);top:-90.73213827477727px;left:-104.12807368652906px;opacity:0.07"></div>
+    <div class="blob" style="width:345.10116039520955px;height:314.31219415882686px;background:var(--accent);bottom:-110.94903627281519px;right:-68.64178405679112px;opacity:0.06"></div>
+    <div class="slide-content">
+      <blockquote>We distilled these guides from running Claude Code as the orchestration kernel for a multi-developer team—worktrees keep developers parallel, agents handle code review at scale, and Discord becomes your team's single source of truth for all decisions.</blockquote>
       <div class="line" style="margin-top:48px"></div>
       <div class="sub">arc-web/claude-code-playbook</div>
+    </div>
+  </div>
+
+<div class="slide" id="slide-7">
+    
+    <div class="blob" style="width:502.5746139595382px;height:584.0160578079792px;background:var(--primary);top:-149.58513939488898px;left:-60.11947906507485px;opacity:0.07"></div>
+    <div class="blob" style="width:356.5816286336259px;height:374.5579562504306px;background:var(--accent);bottom:-111.19967059787277px;left:-66.21239017259457px;opacity:0.06"></div>
+    <div class="slide-content">
+      <div class="eyebrow">Codebase</div>
+      <h2>Built with <span class="grad">care</span></h2>
+      <div class="line"></div>
+      <div class="cards">
+    <div class="card">
+      <span class="card-icon">💻</span>
+      <div class="card-title">JavaScript</div>
+      <div class="card-desc">Built in JavaScript for type safety and reliability.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🏗️</span>
+      <div class="card-title">Architecture</div>
+      <div class="card-desc">Configuration Tool</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">📦</span>
+      <div class="card-title">Key deps</div>
+      <div class="card-desc">See repository</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🔓</span>
+      <div class="card-title">Open Source (MIT / PolyForm)</div>
+      <div class="card-desc">Fork it, extend it, ship it. It's yours.</div>
+    </div></div>
+    </div>
+  </div>
+
+<div class="slide" id="slide-8">
+    
+    <div class="blob" style="width:470.7859312346728px;height:595.5981499532409px;background:var(--primary);top:-151.4597059945132px;left:-110.05626031237264px;opacity:0.07"></div>
+    <div class="blob" style="width:408.4207210722893px;height:446.02186533266485px;background:var(--accent);bottom:-119.26836303049615px;left:-70.75515660793073px;opacity:0.06"></div>
+    <div class="slide-content">
+      <div class="eyebrow">Built by</div>
+      <h2>Mike Ensor<br><span class="grad">Arc Web</span></h2>
+      <div class="sub">AI automation, marketing technology, building tools that work.</div>
+      <div class="body-text">Mike builds open-source AI tools for agencies, marketers, and operators who are done waiting for software to catch up. All Arc Web projects are open source by default — fork them, extend them, ship them.</div>
     </div>
   </div>
 </div>
 
 <div id="nav"></div>
-<div id="counter">1 / 5</div>
+<div id="counter">1 / 8</div>
 <div id="hint">\u2190 \u2192 arrow keys to navigate</div>
 
 <script>
